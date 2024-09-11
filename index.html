@@ -1,37 +1,186 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio Web</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="./styles.css">
-    <script src="./scripts.js"></script>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>My Portfolio Website</title>
+    <link rel="icon" type="image/x-icon" href="/imgs/favicon.png">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="./styles.css">
+	<script src="./scripts.js"></script>
 </head>
 <body>
-    <header>
-        <a href="#" class="logo-holder">
-            <div class="logo">L</div>
-            <div class="logo-text">Portfolio website</div>
-        </a>
-        <nav>
-            <ul id="menu">
-                <li>
-                    <a href="#">Home</a>
-                </li>
-                <li>
-                    <a href="#">Skills</a>
-                </li>
-                <li>
-                    <a href="#">Projects</a>
-                </li>
-                <li>
-                    <a href="#" class="button">Contact Me</a>
-                </li>
-        </nav>
-    </header>
+	<header>
+        <div class="logo-container">
+            <a href="#" class="logo-holder">
+                <img class="logo" src="imgs/favicon.png" alt="Portfolio">
+                <div class="logo-text">My Portfolio Website</div>
+            </a>
+            <div href="#" class="mobile-toggle" onClick="toggleMobileMenu();">
+                <svg class="icon" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                    <path stroke="currentColor" stroke-linecap="round" stroke-width="2" d="M5 7h14M5 12h14M5 17h10"/>
+                </svg>
+            </div>
+        </div>
+		<nav>
+			<ul id="menu">
+				<li>
+					<a href="#">Home</a>
+				</li>
+				<li>
+					<a href="#skills">Skills</a>
+				</li>
+				<li>
+					<a href="#projects">Projects</a>
+				</li>
+				<li>
+					<a href="mailto:christopherlogan2000@outlook.com" class="button">Contact Me</a>
+				</li>
+			</ul>
+		</nav>
+	</header>
+	<main>
+		<section class="hero container">
+			<div class="hero-blue">
+				<div>
+					<h1><small>Hi I'm</small>
+						Christopher Hernandez
+					</h1>
+					<p>
+						I'm a software developer living in Edmonton with a passion for game development and creating intuitive mobile and web applications. I enjoy working with technologies like React Native, Express, and Unity, often experimenting with new frameworks and integrating emerging technologies into my projects. Currently, I’m refining personal projects and enhancing my cloud computing skills with AWS.
+					</p>
+					<div class="call-to-action">
+						<a href="./Sample_Resume_Template.pdf" class="button black">
+							View Resume
+						</a>
+						<a href="mailto:christopherlogan2000@outlook.com" class="button white">
+							Contact Me
+						</a>
+					</div>
+					<div class="social-links">
+						<a href="#">
+							<img src="./imgs/github.png" alt="GitHub" width="48" />
+						</a>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section class="logos container">
+			<div class="marquee">
+				<div class="track">
+					<img src="./imgs/html.png" width="128" alt="HTML" />
+					<img src="./imgs/css.png" width="128" alt="CSS" />
+					<img src="./imgs/javascript.png" width="128" alt="JS" />
+                    <img src="./imgs/mongo-db.png" width="128" alt="Mongo DB" />
+					<img src="./imgs/react.png" width="128" alt="React" />
+                    <img src="./imgs/jsx.png" width="128" alt="JSX" />
+                    <img src="./imgs/unity.png" width="128" alt="Python" />
+                    <img src="./imgs/c-sharp.png" width="110" alt="C#" />
+                    <img src="./imgs/c++.png" width="128" alt="C++" />
+                    <img src="./imgs/python.png" width="128" alt="Unity" />
+                    <img src="./imgs/sql.png" width="100" alt="SQL Database" />
+                    <img src="./imgs/node-js.png" width="110" alt="Node JS" />
+					<img src="./imgs/vscode.png" width="128" alt="VS Code" />
+                    <img src="./imgs/visual-studio.png" width="128" alt="Visual Studio" />
 
+                    <img src="./imgs/html.png" width="128" alt="HTML" />
+					<img src="./imgs/css.png" width="128" alt="CSS" />
+					<img src="./imgs/javascript.png" width="128" alt="JS" />
+                    <img src="./imgs/mongo-db.png" width="128" alt="Mongo DB" />
+					<img src="./imgs/react.png" width="128" alt="React" />
+                    <img src="./imgs/jsx.png" width="128" alt="JSX" />
+                    <img src="./imgs/unity.png" width="128" alt="Python" />
+                    <img src="./imgs/c-sharp.png" width="110" alt="C#" />
+                    <img src="./imgs/c++.png" width="128" alt="C++" />
+                    <img src="./imgs/python.png" width="128" alt="Unity" />
+                    <img src="./imgs/sql.png" width="100" alt="SQL Database" />
+                    <img src="./imgs/node-js.png" width="110" alt="Node JS" />
+					<img src="./imgs/vscode.png" width="128" alt="VS Code" />
+                    <img src="./imgs/visual-studio.png" width="128" alt="Visual Studio" />
+				</div>
+			</div>
+		</section>
+		<section id="skills" class="skills container">
+			<h2>
+				<small>My</small>
+				Skills
+			</h2>
+            <div class="holder-container">
+                <div class="holder-blue">
+                    <div class="left-column">
+                        <h3>Programming Languages</h3>
+                        <ul>
+                            <li>JavaScript</li>
+                            <li>JSX</li>
+                            <li>C#</li>
+                            <li>C++</li>
+                            <li>Python</li>
+                        </ul>
+                        <h3>Frontend</h3>
+                        <ul>
+                            <li>HTML</li>
+                            <li>CSS</li>
+                            <li>React</li>
+                            <li>React Native</li>
+                        </ul>
+                        <h3>Backend</h3>
+                        <ul>
+                            <li>Node.js</li>
+                            <li>Express</li>			
+                        </ul>
+                        <h3>Databases</h3>
+                        <ul>
+                            <li>MongoDB</li>
+                            <li>SQL</li>			
+                        </ul>
+                    </div>
+                </div>
+                <div class="holder-yellow">
+                    <div class="right-column">
+                        <h3>A bit about me</h3>
+                        <p>
+                            I'm a software developer based in Edmonton, passionate about game development and building intuitive mobile and web applications. I enjoy working with technologies like React Native, Express, and Unity, constantly experimenting with new frameworks and integrating emerging tech like AI into my projects.
+                        </p>
+                        <p>
+                            Lately, I've been refining personal projects while enhancing my cloud computing expertise with AWS, always looking for ways to push the boundaries of what technology can do.
+                        </p>
+                    </div>
+                </div>
+            </div>
+		</section>
+		<section id="projects" class="bento container">
+			<h2>
+				<small>
+					Some of
+				</small>
+				My Projects
+			</h2>
+			<div class="bento-grid">
+				<a href="#" class="bento-item">
+					<img src="./imgs/bento-1.jpg" alt="#" width="100%" />
+				</a>
+				<a href="#" class="bento-item">
+					<img src="./imgs/bento-2.jpg" alt="#" width="100%" />
+				</a>
+				<a href="#" class="bento-item">
+					<img src="./imgs/bento-3.jpg" alt="#" width="100%" />
+				</a>
+				<a href="#" class="bento-item">
+					<img src="./imgs/bento-5.jpg" alt="#" width="100%" />
+				</a>
+				<a href="#" class="bento-item">
+					<img src="./imgs/bento-6.jpg" alt="#" width="100%" />
+				</a>
+				<a href="#" class="bento-item">
+					<img src="./imgs/bento-7.jpg" alt="#" width="100%" />
+				</a>
+			</div>
+		</section>
+	</main>
 </body>
 </html>
+
+
+
