@@ -417,7 +417,7 @@ h3 {
 		}
 		.bar {
 			width: 0px;
-			background-color: var(--orange-400);
+			background-color: var(--blue-400);
 			height: 7px;
 		}
 		.longer {
