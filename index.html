@@ -164,24 +164,31 @@
 				<div class="bar"></div>
 			</div>
 			<div class="bento-grid">
-				<a href="#" class="bento-item">
+				<button class="bento-item" onclick="openModal(1)">
 					<img src="./imgs/bento-1.jpg" alt="#" width="100%" />
-				</a>
-				<a href="#" class="bento-item">
+				</button>
+				<button class="bento-item" onclick="openModal(2)">
 					<img src="./imgs/bento-2.jpg" alt="#" width="100%" />
-				</a>
-				<a href="#" class="bento-item">
+				</button>
+				<button class="bento-item" onclick="openModal(3)">
 					<img src="./imgs/bento-3.jpg" alt="#" width="100%" />
-				</a>
-				<a href="#" class="bento-item">
+				</button>
+				<button class="bento-item" onclick="openModal(5)">
 					<img src="./imgs/bento-5.jpg" alt="#" width="100%" />
-				</a>
-				<a href="#" class="bento-item">
+				</button>
+				<button class="bento-item" onclick="openModal(6)">
 					<img src="./imgs/bento-6.jpg" alt="#" width="100%" />
-				</a>
-				<a href="#" class="bento-item">
+				</button>
+				<button class="bento-item" onclick="openModal(7)">
 					<img src="./imgs/bento-7.jpg" alt="#" width="100%" />
-				</a>
+				</button>
+			</div>
+			<!-- Modal -->
+			<div id="myModal" class="modal">
+				<div class="modal-content">
+					<span class="close" onclick="closeModal()">&times;</span>
+					<p>Modal content goes here!</p>
+				</div>
 			</div>
 		</section>
 		<section id="contact-me" class="contact-me container">
