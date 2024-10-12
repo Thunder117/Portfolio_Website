@@ -14,7 +14,6 @@ const hiddenObserver = new IntersectionObserver((entries) => {
 
 const barObserver = new IntersectionObserver((entries) => {
     entries.forEach((entry) => {
-        console.log(entry.target, entry.isIntersecting); // Debugging
         if (entry.isIntersecting) {
             entry.target.classList.add('longer');
         } else {
