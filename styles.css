@@ -154,7 +154,7 @@ body {
 a {
 	text-decoration: none;
 	color: var(--blue);
-	:hover {
+	&:hover {
 		text-decoration: underline;
 	}
 }
@@ -224,7 +224,7 @@ header {
 					display:inline-block;
 					padding:10px 15px;
 					color:var(--base);
-					:hover {
+					&:hover {
 						background-color: var(--base-100);
 						border-radius:10px;
 						text-decoration:none;
@@ -280,22 +280,22 @@ section {
 	background-color: var(--blue);
 	color: var(--base-100);
 	border-radius:10px;
-	:hover {
+	&:hover {
 		text-decoration:none;
 		background-color: var(--base-800);
 	}
-	.white {
+	&.white {
 		background-color: white;
 		color: var(--base-800);
-		:hover {
+		&:hover {
 			background-color: var(--base-100);
 			color: var(--base);
 		}
 	}
-	.black {
+	&.black {
 		background-color: black;
 		color: white;
-		:hover {
+		&:hover {
 			background-color: var(--base);
 			color: var(--base-100);
 		}
@@ -341,7 +341,7 @@ h1 {
 		}
 		.social-links {
 			a {
-				:hover {
+				&:hover {
 					text-decoration:none;
 				}
 			}
@@ -544,7 +544,7 @@ h3 {
 				object-fit:cover;
 				transition: ease 3s all;
 			}
-			:hover {
+			&:hover {
 				cursor: pointer;
 				img {
 					transform: scale(1.2);
@@ -553,7 +553,7 @@ h3 {
 			@media(max-width:768px){
 				height:240px;
 			}
-			:nth-child(1) {
+			&:nth-child(1) {
 				grid-column: span 2;
 				grid-row: span 2;
 				@media(max-width:1024px){
@@ -561,7 +561,7 @@ h3 {
 					grid-row: span 2;
 				}
 			}
-			:nth-child(2) {
+			&:nth-child(2) {
 				grid-column: span 2;
 				grid-row: span 1;
 				@media(max-width:1024px){
@@ -569,7 +569,7 @@ h3 {
 					grid-row: span 2;
 				}
 			}
-			:nth-child(3) {
+			&:nth-child(3) {
 				grid-column: span 1;
 				grid-row: span 1;
 				@media(max-width:1024px){
@@ -577,7 +577,7 @@ h3 {
 					grid-row: span 2;
 				}
 			}
-			:nth-child(4) {
+			&:nth-child(4) {
 				grid-column: span 1;
 				grid-row: span 1;
 				@media(max-width:1024px){
@@ -585,7 +585,7 @@ h3 {
 					grid-row: span 4;
 				}
 			}
-			:nth-child(5) {
+			&:nth-child(5) {
 				grid-column: span 2;
 				grid-row: span 1;
 				@media(max-width:1024px){
@@ -593,7 +593,7 @@ h3 {
 					grid-row: span 2;
 				}
 			}
-			:nth-child(6) {
+			&:nth-child(6) {
 				grid-column: span 5;
 				grid-row: span 3;
 				@media(max-width:1024px){
