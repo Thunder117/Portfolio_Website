@@ -79,6 +79,8 @@ html {
 
 /* Modal content */
 .modal-content {
+	display: flex;
+	flex-direction: column;
 	background-color: #fff;
 	margin: 15% auto;
 	padding: 20px;
@@ -88,6 +90,29 @@ html {
 	height: 70%;
 	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 	border-radius: 10px;
+	.body {
+		background-color: var(--blue-100);
+		padding: 5px;
+		overflow-y: auto;
+		display: flex;
+		flex-direction: column;
+		gap: 10px;
+		.title {
+			display: flex;
+			background-color: #F5B041;
+			justify-content: center;
+			font-weight: bold;
+		}
+		.description-container{
+			background-color:#9cc6ea;
+		}
+		.key-features {
+			background-color: #F39C12;
+		}
+		.technologies-used {
+			background-color: #f1f1f1;
+		}
+	}
 }
 
 /* Close button */
