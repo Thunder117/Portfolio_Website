@@ -91,7 +91,6 @@ html {
 	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 	border-radius: 10px;
 	.body {
-		background-color: var(--blue-100);
 		padding: 5px;
 		overflow-y: auto;
 		display: flex;
@@ -99,18 +98,14 @@ html {
 		gap: 10px;
 		.title {
 			display: flex;
-			background-color: #F5B041;
 			justify-content: center;
 			font-weight: bold;
 		}
 		.description-container{
-			background-color:#9cc6ea;
 		}
 		.key-features {
-			background-color: #F39C12;
 		}
 		.technologies-used {
-			background-color: #f1f1f1;
 		}
 	}
 }
@@ -507,10 +502,10 @@ h3 {
 		display:grid;
 		grid-gap:30px;
 		grid-template-columns: repeat(5, 1fr);
-		grid-template-rows: repeat(4, 1fr);
-		height:960px;
+		grid-template-rows: repeat(2, 1fr);
+		height:460px;
 		@media(max-width:1024px){
-			grid-template-rows: repeat(8, 1fr);
+			grid-template-rows: repeat(6, 1fr);
 		}
 		@media(max-width:768px){
 			display:flex;
