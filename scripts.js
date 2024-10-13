@@ -2,14 +2,14 @@ const details = {
     1: 
     {
         title: "Book Club Web App",
-        description: "A full-featured web application for managing book clubs, allowing users to create and join clubs, invite other members, and manage book collections within clubs.",
+        description: "A full-featured web application for managing book clubs, allowing users to create clubs, invite other members, and manage book collections within clubs.",
         key_features: 
         `
         <b>Key Features:</b>
         <ul>
             <li>Users can create and manage book clubs, adding or removing books with a smooth modal interface.</li>
             <li>Real-time search functionality to find users by their username and invite them to join book clubs.</li>
-            <li>Responsive design with dynamic modals for adding books, viewing club details, and managing memberships.</li>
+            <li>Responsive design with dynamic modals for adding books to existing clubs.</li>
         </ul>
         `,
         technologies_used:
@@ -20,8 +20,8 @@ const details = {
             <li><b>Backend:</b> Node.js, Express</li>
             <li><b>Database:</b> MongoDB for storing user and book club data.</li>
             <li><b>User Authentication:</b> JSON Web Tokens (JWT) for secure login and session management.</li>
-            <li><b>Styling and UI:</b> CSS Modules and animations for seamless transitions in modals.</li>
-            <li><b>Deployment:</b> Hosted on AWS/Docker for scalability and performance.</li>
+            <li><b>Styling and UI:</b> Tailwind CSS, CSS Modules, and animations for seamless transitions in modals.</li>
+            <li><b>Deployment:</b> Hosted on **AWS/Docker** for scalability and performance.</li>
         </ul>
         `,
         conclusion: "This project demonstrates my ability to build interactive, scalable, and user-friendly web applications with both frontend and backend technologies."
@@ -44,11 +44,11 @@ const details = {
         <b>Technologies Used:</b>
         <ul>
             <li><b>Frontend:</b> HTML5, CSS3, JavaScript (ES6+)</li>
-            <li><b>Styling and UI:</b> CSS Modules and animations for smooth transitions in modals.</li>
-            <li><b>Deployment:</b> Hosted using AWS/Docker for enhanced performance and reliability.</li>
+            <li><b>Styling and UI:</b> CSS Modules and animations for a smooth user experience.</li>
+            <li><b>Deployment:</b> Hosted using **AWS/Docker** for enhanced performance and reliability.</li>
         </ul>
         `,
-        conclusion: "This project demonstrates my skills in building responsive and user-friendly websites, showcasing my work and abilities as a software developer."
+        conclusion: "This project demonstrates my skills in building responsive and user-friendly websites, showcasing my work and abilities as a web developer."
     }
 };
 
@@ -82,13 +82,15 @@ function openModal(id) {
     const modalDescription = document.getElementById('modalDescription');
     const keyFeatures = document.getElementById('keyFeatures');
     const technologiesUsed = document.getElementById('technologiesUsed');
+    const conclusion = document.getElementById('conclusion');
 
     // Update modal content with the corresponding details
     if (details[id]) {
         modalTitle.textContent = details[id].title;
         modalDescription.textContent = details[id].description;
-        keyFeatures.innerHTML = details[id].key_features; // Updated to innerHTML for better formatting
-        technologiesUsed.innerHTML = details[id].technologies_used; // Updated to innerHTML for better formatting
+        keyFeatures.innerHTML = details[id].key_features; 
+        technologiesUsed.innerHTML = details[id].technologies_used; 
+        conclusion.textContent = details[id].conclusion;
     } else {
         modalTitle.textContent = 'Details not available for this item.';
     }
