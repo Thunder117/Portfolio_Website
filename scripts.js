@@ -5,63 +5,51 @@ const details = {
         description: "A full-featured web application for managing book clubs, allowing users to create and join clubs, invite other members, and manage book collections within clubs.",
         key_features: 
         `
-        **Key Features:**
-            - Users can create and manage book clubs, adding or removing books with a smooth modal interface.
-            - Real-time search functionality to find users by their username and invite them to join book clubs.
-            - Responsive design with dynamic modals for adding books, viewing club details, and managing memberships.
+        <b>Key Features:</b>
+        <ul>
+            <li>Users can create and manage book clubs, adding or removing books with a smooth modal interface.</li>
+            <li>Real-time search functionality to find users by their username and invite them to join book clubs.</li>
+            <li>Responsive design with dynamic modals for adding books, viewing club details, and managing memberships.</li>
+        </ul>
         `,
         technologies_used:
         `
-         **Technologies Used:**
-            - **Frontend:** React, HTML5, CSS3, JavaScript (ES6+)
-            - **Backend:** Node.js, Express
-            - **Database:** MongoDB for storing user and book club data.
-            - **User Authentication:** JSON Web Tokens (JWT) for secure login and session management.
-            - **Styling and UI:** CSS Modules and animations for seamless transitions in modals.
-            - **Deployment:** Hosted on AWS/Docker for scalability and performance.
+        <b>Technologies Used:</b>
+        <ul>
+            <li><b>Frontend:</b> React, HTML5, CSS3, JavaScript (ES6+)</li>
+            <li><b>Backend:</b> Node.js, Express</li>
+            <li><b>Database:</b> MongoDB for storing user and book club data.</li>
+            <li><b>User Authentication:</b> JSON Web Tokens (JWT) for secure login and session management.</li>
+            <li><b>Styling and UI:</b> CSS Modules and animations for seamless transitions in modals.</li>
+            <li><b>Deployment:</b> Hosted on AWS/Docker for scalability and performance.</li>
+        </ul>
         `,
         conclusion: "This project demonstrates my ability to build interactive, scalable, and user-friendly web applications with both frontend and backend technologies."
-    },    
+    },
     2: 
     {
         title: "Portfolio Website",
         description: "A personal portfolio website showcasing projects and skills, featuring a responsive design and smooth user experience.",
         key_features: 
         `
-        **Key Features:**
-            - Clean and modern design with intuitive navigation for showcasing various projects.
-            - Interactive modals to display detailed information about each project.
-            - Responsive layout that adapts to different screen sizes for optimal viewing on any device.
+        <b>Key Features:</b>
+        <ul>
+            <li>Clean and modern design with intuitive navigation for showcasing various projects.</li>
+            <li>Interactive modals to display detailed information about each project.</li>
+            <li>Responsive layout that adapts to different screen sizes for optimal viewing on any device.</li>
+        </ul>
         `,
         technologies_used:
         `
-        **Technologies Used:**
-            - **Frontend:** HTML5, CSS3, JavaScript (ES6+)
-            - **Styling and UI:** CSS Modules and animations for smooth transitions in modals.
-            - **Deployment:** Hosted using AWS/Docker for enhanced performance and reliability.
+        <b>Technologies Used:</b>
+        <ul>
+            <li><b>Frontend:</b> HTML5, CSS3, JavaScript (ES6+)</li>
+            <li><b>Styling and UI:</b> CSS Modules and animations for smooth transitions in modals.</li>
+            <li><b>Deployment:</b> Hosted using AWS/Docker for enhanced performance and reliability.</li>
+        </ul>
         `,
         conclusion: "This project demonstrates my skills in building responsive and user-friendly websites, showcasing my work and abilities as a software developer."
-    },
-    3: 
-    {
-        title: "Details about Bento 1: This is a delicious bento with rice, veggies, and chicken.",
-        description: "Description 1"
-    },
-    4: 
-    {
-        title: "Details about Bento 1: This is a delicious bento with rice, veggies, and chicken.",
-        description: "Description 1"
-    },
-    5: 
-    {
-        title: "Details about Bento 1: This is a delicious bento with rice, veggies, and chicken.",
-        description: "Description 1"
-    },
-    6: 
-    {
-        title: "Details about Bento 1: This is a delicious bento with rice, veggies, and chicken.",
-        description: "Description 1"
-    },
+    }
 };
 
 function toggleMobileMenu(){
