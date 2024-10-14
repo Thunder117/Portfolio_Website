@@ -3,6 +3,7 @@ const details = {
     {
         title: "Book Club Web App",
         description: "A full-featured web application for managing book clubs, allowing users to create clubs, invite other members, and manage book collections within clubs.",
+        link: "https://bookclubplus.netlify.app/",
         key_features: 
         `
         <b>Key Features:</b>
@@ -80,6 +81,7 @@ function openModal(id) {
     const modal = document.getElementById('myModal');
     const modalTitle = document.getElementById('modalTitle');
     const modalDescription = document.getElementById('modalDescription');
+    const link = document.getElementById('link');
     const keyFeatures = document.getElementById('keyFeatures');
     const technologiesUsed = document.getElementById('technologiesUsed');
     const conclusion = document.getElementById('conclusion');
@@ -88,6 +90,11 @@ function openModal(id) {
     if (details[id]) {
         modalTitle.textContent = details[id].title;
         modalDescription.textContent = details[id].description;
+        if(details[id].link) {
+            link.href = details[id].link; // Update the link's href attribute and display text
+        } else {
+            link.href = "#"; // Update the link's href attribute and display text
+        }
         keyFeatures.innerHTML = details[id].key_features; 
         technologiesUsed.innerHTML = details[id].technologies_used; 
         conclusion.textContent = details[id].conclusion;
