@@ -17,8 +17,8 @@ const details = {
         `
         <b>Technologies Used:</b>
         <ul>
-            <li><b>Frontend:</b> React, HTML5, CSS3, JavaScript (ES6+)</li>
-            <li><b>Backend:</b> Node.js, Express</li>
+            <li><b>Frontend:</b> React, HTML5, CSS3, JavaScript (ES6+).</li>
+            <li><b>Backend:</b> Node.js, Express.</li>
             <li><b>Database:</b> MongoDB for storing user and book club data.</li>
             <li><b>User Authentication:</b> JSON Web Tokens (JWT) for secure login and session management.</li>
             <li><b>Styling and UI:</b> Tailwind CSS, CSS Modules, and animations for seamless transitions in modals.</li>
@@ -44,12 +44,39 @@ const details = {
         `
         <b>Technologies Used:</b>
         <ul>
-            <li><b>Frontend:</b> HTML5, CSS3, JavaScript (ES6+)</li>
+            <li><b>Frontend:</b> HTML5, CSS3, JavaScript (ES6+).</li>
             <li><b>Styling and UI:</b> CSS Modules and animations for a smooth user experience.</li>
             <li><b>Deployment:</b> Hosted using **AWS/Docker** for enhanced performance and reliability.</li>
         </ul>
         `,
         conclusion: "This project demonstrates my skills in building responsive and user-friendly websites, showcasing my work and abilities as a web developer."
+    },
+    3: 
+    {
+        title: "Rogue-like Unity Game",
+        description: "A 2D pixel art rogue-like game developed in Unity, featuring a player-controlled character, weapon system, and dynamic enemy interactions. This project showcases my skills in game development and C# programming.",
+        key_features: 
+        `
+        <b>Key Features:</b>
+        <ul>
+            <li>Player-controlled character with smooth movement and attack mechanics.</li>
+            <li>Weapon aiming based on mouse position for precise combat.</li>
+            <li>Dynamic camera shake effect during combat for enhanced game feel.</li>
+            <li>Pixel art environment and character designs, creating a retro aesthetic.</li>
+            <li>Basic enemy AI with patrolling, attacking, and health management behaviors.</li>
+        </ul>
+        `,
+        technologies_used:
+        `
+        <b>Technologies Used:</b>
+        <ul>
+            <li><b>Game Engine:</b> Unity (C#).</li>
+            <li><b>Art:</b> Pixel art created using Aseprite.</li>
+            <li><b>Development:</b> C# for scripting player movement, enemy AI, and game mechanics.</li>
+            <li><b>Physics:</b> Unity’s built-in physics engine for collision detection and interaction.</li>
+        </ul>
+        `,
+        conclusion: "This project highlights my passion for game development, focusing on core gameplay mechanics, smooth animations, and a cohesive visual style and color palette."
     }
 };
 
@@ -91,9 +118,9 @@ function openModal(id) {
         modalTitle.textContent = details[id].title;
         modalDescription.textContent = details[id].description;
         if(details[id].link) {
-            link.href = details[id].link; // Update the link's href attribute and display text
+            link.href = details[id].link; 
         } else {
-            link.href = "#"; // Update the link's href attribute and display text
+            link.href = "#"; 
         }
         keyFeatures.innerHTML = details[id].key_features; 
         technologiesUsed.innerHTML = details[id].technologies_used; 
