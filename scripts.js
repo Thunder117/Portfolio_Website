@@ -21,7 +21,7 @@ const details = {
             <li><b>Backend:</b> Node.js, Express.</li>
             <li><b>Database:</b> MongoDB for storing user and book club data.</li>
             <li><b>User Authentication:</b> JSON Web Tokens (JWT) for secure login and session management.</li>
-            <li><b>Styling and UI:</b> Tailwind CSS, CSS Modules, and animations for seamless transitions in modals.</li>
+            <li><b>Styling and UI:</b> Tailwind CSS, and animations for seamless transitions in modals.</li>
             <li><b>Deployment:</b> Hosted using Netlify and Render for performance.</li>
         </ul>
         `,
@@ -45,7 +45,7 @@ const details = {
         <b>Technologies Used:</b>
         <ul>
             <li><b>Frontend:</b> HTML5, CSS3, JavaScript (ES6+).</li>
-            <li><b>Styling and UI:</b> CSS Modules and animations for a smooth user experience.</li>
+            <li><b>Styling and UI:</b> Animations for a smooth user experience.</li>
             <li><b>Deployment:</b> Hosted using Netlify for performance.</li>
         </ul>
         `,
