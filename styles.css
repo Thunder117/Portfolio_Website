@@ -17,6 +17,7 @@
 	--blue-100: #e2f8ff;
 	--blue-400: #61dafb;
 	--blue-800: #0a61ae;
+	--blue-900: #0b5391;
 }
 
 html {
@@ -109,6 +110,18 @@ html {
 		flex-direction: column;
 		gap: 10px;
 		.description-container{
+		}
+		.link-project {
+			background-color: var(--blue-800);
+			transition: all 0.1s;
+			text-align: center;
+			color: white;
+			padding: 10px;
+			border-radius: 10px;
+			text-decoration: none;
+			&:hover{
+				background-color:var(--blue-900);
+			}
 		}
 		.key-features {
 		}

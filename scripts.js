@@ -22,7 +22,7 @@ const details = {
             <li><b>Database:</b> MongoDB for storing user and book club data.</li>
             <li><b>User Authentication:</b> JSON Web Tokens (JWT) for secure login and session management.</li>
             <li><b>Styling and UI:</b> Tailwind CSS, CSS Modules, and animations for seamless transitions in modals.</li>
-            <li><b>Deployment:</b> Hosted on **AWS/Docker** for scalability and performance.</li>
+            <li><b>Deployment:</b> Hosted using Netlify and Render for performance.</li>
         </ul>
         `,
         conclusion: "This project demonstrates my ability to build interactive, scalable, and user-friendly web applications with both frontend and backend technologies."
@@ -46,7 +46,7 @@ const details = {
         <ul>
             <li><b>Frontend:</b> HTML5, CSS3, JavaScript (ES6+).</li>
             <li><b>Styling and UI:</b> CSS Modules and animations for a smooth user experience.</li>
-            <li><b>Deployment:</b> Hosted using **AWS/Docker** for enhanced performance and reliability.</li>
+            <li><b>Deployment:</b> Hosted using Netlify for performance.</li>
         </ul>
         `,
         conclusion: "This project demonstrates my skills in building responsive and user-friendly websites, showcasing my work and abilities as a web developer."
@@ -118,9 +118,10 @@ function openModal(id) {
         modalTitle.textContent = details[id].title;
         modalDescription.textContent = details[id].description;
         if(details[id].link) {
+            link.style.display = "inline"; 
             link.href = details[id].link; 
         } else {
-            link.href = "#"; 
+            link.style.display = "none"; 
         }
         keyFeatures.innerHTML = details[id].key_features; 
         technologiesUsed.innerHTML = details[id].technologies_used; 
