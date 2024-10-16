@@ -29,30 +29,6 @@ const details = {
     },
     2: 
     {
-        title: "Portfolio Website",
-        description: "A personal portfolio website showcasing projects and skills, featuring a responsive design and smooth user experience.",
-        key_features: 
-        `
-        <b>Key Features:</b>
-        <ul>
-            <li>Clean and modern design with intuitive navigation for showcasing various projects.</li>
-            <li>Interactive modals to display detailed information about each project.</li>
-            <li>Responsive layout that adapts to different screen sizes for optimal viewing on any device.</li>
-        </ul>
-        `,
-        technologies_used:
-        `
-        <b>Technologies Used:</b>
-        <ul>
-            <li><b>Frontend:</b> HTML5, CSS3, JavaScript (ES6+).</li>
-            <li><b>Styling and UI:</b> Animations for a smooth user experience.</li>
-            <li><b>Deployment:</b> Hosted using Netlify for performance.</li>
-        </ul>
-        `,
-        conclusion: "This project demonstrates my skills in building responsive and user-friendly websites, showcasing my work and abilities as a web developer."
-    },
-    3: 
-    {
         title: "Rogue-like Unity Game",
         description: "A 2D pixel art rogue-like game developed in Unity, featuring a player-controlled character, weapon system, and dynamic enemy interactions. This project showcases my skills in game development and C# programming.",
         key_features: 
@@ -77,6 +53,30 @@ const details = {
         </ul>
         `,
         conclusion: "This project highlights my passion for game development, focusing on core gameplay mechanics, smooth animations, and a cohesive visual style and color palette."
+    },
+    5: 
+    {
+        title: "Portfolio Website",
+        description: "A personal portfolio website showcasing projects and skills, featuring a responsive design and smooth user experience.",
+        key_features: 
+        `
+        <b>Key Features:</b>
+        <ul>
+            <li>Clean and modern design with intuitive navigation for showcasing various projects.</li>
+            <li>Interactive modals to display detailed information about each project.</li>
+            <li>Responsive layout that adapts to different screen sizes for optimal viewing on any device.</li>
+        </ul>
+        `,
+        technologies_used:
+        `
+        <b>Technologies Used:</b>
+        <ul>
+            <li><b>Frontend:</b> HTML5, CSS3, JavaScript (ES6+).</li>
+            <li><b>Styling and UI:</b> Animations for a smooth user experience.</li>
+            <li><b>Deployment:</b> Hosted using Netlify for performance.</li>
+        </ul>
+        `,
+        conclusion: "This project demonstrates my skills in building responsive and user-friendly websites, showcasing my work and abilities as a web developer."
     }
 };
 
