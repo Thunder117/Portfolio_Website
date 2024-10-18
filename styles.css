@@ -109,8 +109,6 @@ html {
 		display: flex;
 		flex-direction: column;
 		gap: 15px;
-		.description-container{
-		}
 		.link-project {
 			background-color: var(--blue-800);
 			transition: all 0.1s;
@@ -122,10 +120,6 @@ html {
 			&:hover{
 				background-color:var(--blue-900);
 			}
-		}
-		.key-features {
-		}
-		.technologies-used {
 		}
 	}
 }

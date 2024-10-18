@@ -74,7 +74,7 @@ const details = {
         <ul>
             <li><b>Frontend:</b> React Native.</li>
             <li><b>Backend:</b> JavaScript (ES6+), JSX.</li>
-            <li><b>Styling and UI:</b> Tailwind CSS for clean, mobile-first design.</li>
+            <li><b>Styling and UI:</b> CSS mobile-first design.</li>
             <li><b>Deployment:</b> Project made for personal use, using GitHub for version control.</li>
         </ul>
         `,
@@ -100,7 +100,7 @@ const details = {
         <ul>
             <li><b>Frontend:</b> React Native.</li>
             <li><b>Backend:</b> JavaScript (ES6+), JSX.</li>
-            <li><b>Styling and UI:</b> Tailwind CSS for clean, mobile-first design.</li>
+            <li><b>Styling and UI:</b> CSS mobile-first design.</li>
             <li><b>Deployment:</b> Project made for personal use, using GitHub for version control.</li>
         </ul>
         `,
