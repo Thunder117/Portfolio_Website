@@ -17,8 +17,8 @@ const details = {
         `
         <b>Technologies Used:</b>
         <ul>
-            <li><b>Frontend:</b> React, HTML5, CSS3, JavaScript (ES6+).</li>
-            <li><b>Backend:</b> Node.js, Express.</li>
+            <li><b>Frontend:</b> React, HTML5.</li>
+            <li><b>Backend:</b> Node.js, Express, JavaScript (ES6+), JSX.</li>
             <li><b>Database:</b> MongoDB for storing user and book club data.</li>
             <li><b>User Authentication:</b> JSON Web Tokens (JWT) for secure login and session management.</li>
             <li><b>Styling and UI:</b> Tailwind CSS, and animations for seamless transitions in modals.</li>
@@ -54,6 +54,58 @@ const details = {
         `,
         conclusion: "This project highlights my passion for game development, focusing on core gameplay mechanics, smooth animations, and a cohesive visual style and color palette."
     },
+    3: 
+    {
+        title: "Activity Tracker App",
+        description: "A simple React Native app that allows users to create activities linked to specific dates, providing an easy way to track tasks and mark them as done or not done.",
+        key_features: 
+        `
+        <b>Key Features:</b>
+        <ul>
+            <li>Users can select a date and create multiple activities for that day.</li>
+            <li>Each activity has a toggle option to mark it as 'Done' or 'Not Done.'</li>
+            <li>Visual indicators (such as checkmarks) display task completion status.</li>
+            <li>Clean and minimal UI for easy navigation and usage.</li>
+        </ul>
+        `,
+        technologies_used: 
+        `
+        <b>Technologies Used:</b>
+        <ul>
+            <li><b>Frontend:</b> React Native.</li>
+            <li><b>Backend:</b> JavaScript (ES6+), JSX.</li>
+            <li><b>Styling and UI:</b> Tailwind CSS for clean, mobile-first design.</li>
+            <li><b>Deployment:</b> Project made for personal use, using GitHub for version control.</li>
+        </ul>
+        `,
+        conclusion: "This project showcases my ability to build simple and intuitive mobile applications that improve productivity by helping users manage their daily tasks effectively."
+    },
+    4: 
+    {
+        title: "Supermarket List App",
+        description: "A mobile application that helps users create and organize supermarket shopping lists, allowing them to easily track and add products for a more efficient shopping experience.",
+        key_features: 
+        `
+        <b>Key Features:</b>
+        <ul>
+            <li>Create multiple shopping lists, each tailored to different shopping needs.</li>
+            <li>Add various products like groceries, produce, and household items to specific lists.</li>
+            <li>Edit or remove items from lists to keep them up-to-date and organized.</li>
+            <li>Responsive design across Android and iOS platforms, ensuring a seamless user experience.</li>
+        </ul>
+        `,
+        technologies_used:
+        `
+        <b>Technologies Used:</b>
+        <ul>
+            <li><b>Frontend:</b> React Native.</li>
+            <li><b>Backend:</b> JavaScript (ES6+), JSX.</li>
+            <li><b>Styling and UI:</b> Tailwind CSS for clean, mobile-first design.</li>
+            <li><b>Deployment:</b> Project made for personal use, using GitHub for version control.</li>
+        </ul>
+        `,
+        conclusion: "This project showcases my ability to build user-focused mobile applications with dynamic functionality and an intuitive user interface."
+    },
     5: 
     {
         title: "Portfolio Website",
@@ -71,9 +123,10 @@ const details = {
         `
         <b>Technologies Used:</b>
         <ul>
-            <li><b>Frontend:</b> HTML5, CSS3, JavaScript (ES6+).</li>
-            <li><b>Styling and UI:</b> Animations for a smooth user experience.</li>
-            <li><b>Deployment:</b> Hosted using Netlify for performance.</li>
+            <li><b>Frontend:</b> HTML5.</li>
+            <li><b>Backend:</b> JavaScript (ES6+).</li>
+            <li><b>Styling and UI:</b> CSS3 with animations for a smooth user experience.</li>
+            <li><b>Deployment:</b> Hosted using Netlify.</li>
         </ul>
         `,
         conclusion: "This project demonstrates my skills in building responsive and user-friendly websites, showcasing my work and abilities as a web developer."
