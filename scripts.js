@@ -1,6 +1,33 @@
 const details = {
     1: 
     {
+        title: "Rogue-like Unity Game",
+        description: "A 2D pixel art rogue-like game developed in Unity, featuring a player-controlled character, weapon system, and dynamic enemy interactions. This project showcases my skills in game development and C# programming.",
+        key_features: 
+        `
+        <b>Key Features:</b>
+        <ul>
+            <li>Player-controlled character with smooth movement and attack mechanics.</li>
+            <li>Weapon aiming based on mouse position for precise combat.</li>
+            <li>Dynamic camera shake effect during combat for enhanced game feel.</li>
+            <li>Pixel art environment and character designs, creating a retro aesthetic.</li>
+            <li>Basic enemy AI with patrolling, attacking, and health management behaviors.</li>
+        </ul>
+        `,
+        technologies_used:
+        `
+        <b>Technologies Used:</b>
+        <ul>
+            <li><b>Game Engine:</b> Unity (C#).</li>
+            <li><b>Art:</b> Pixel art created using Aseprite.</li>
+            <li><b>Development:</b> C# for scripting player movement, enemy AI, and game mechanics.</li>
+            <li><b>Physics:</b> Unity’s built-in physics engine for collision detection and interaction.</li>
+        </ul>
+        `,
+        conclusion: "This project highlights my passion for game development, focusing on core gameplay mechanics, smooth animations, and a cohesive visual style and color palette."
+    },
+    2: 
+    {
         title: "Book Club Web App",
         description: "A full-featured web application for managing book clubs, allowing users to create clubs, invite other members, and manage book collections within clubs.",
         link: "https://bookclubplus.netlify.app/",
@@ -26,33 +53,6 @@ const details = {
         </ul>
         `,
         conclusion: "This project demonstrates my ability to build interactive, scalable, and user-friendly web applications with both frontend and backend technologies."
-    },
-    2: 
-    {
-        title: "Rogue-like Unity Game",
-        description: "A 2D pixel art rogue-like game developed in Unity, featuring a player-controlled character, weapon system, and dynamic enemy interactions. This project showcases my skills in game development and C# programming.",
-        key_features: 
-        `
-        <b>Key Features:</b>
-        <ul>
-            <li>Player-controlled character with smooth movement and attack mechanics.</li>
-            <li>Weapon aiming based on mouse position for precise combat.</li>
-            <li>Dynamic camera shake effect during combat for enhanced game feel.</li>
-            <li>Pixel art environment and character designs, creating a retro aesthetic.</li>
-            <li>Basic enemy AI with patrolling, attacking, and health management behaviors.</li>
-        </ul>
-        `,
-        technologies_used:
-        `
-        <b>Technologies Used:</b>
-        <ul>
-            <li><b>Game Engine:</b> Unity (C#).</li>
-            <li><b>Art:</b> Pixel art created using Aseprite.</li>
-            <li><b>Development:</b> C# for scripting player movement, enemy AI, and game mechanics.</li>
-            <li><b>Physics:</b> Unity’s built-in physics engine for collision detection and interaction.</li>
-        </ul>
-        `,
-        conclusion: "This project highlights my passion for game development, focusing on core gameplay mechanics, smooth animations, and a cohesive visual style and color palette."
     },
     3: 
     {
