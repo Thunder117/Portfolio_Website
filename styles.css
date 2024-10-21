@@ -91,6 +91,10 @@ html {
 	height: 80%;
 	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 	border-radius: 10px;
+	.modal-gif {
+		display: flex;
+		justify-content: center;
+	}
 	.modal-header {
 		display: flex;
 		.title {

@@ -3,6 +3,7 @@ const details = {
     {
         title: "Rogue-like Unity Game",
         description: "A 2D pixel art rogue-like game developed in Unity, featuring a player-controlled character, weapon system, and dynamic enemy interactions. This project showcases my skills in game development and C# programming.",
+        gif: '<img src="./imgs/bento-duck.gif" alt="Unity Game GIF" style="max-width: 100%; height: 300px;"/>', 
         key_features: 
         `
         <b>Key Features:</b>
@@ -30,6 +31,7 @@ const details = {
     {
         title: "Book Club Web App",
         description: "A full-featured web application for managing book clubs, allowing users to create clubs, invite other members, and manage book collections within clubs.",
+        gif: '<img src="./imgs/bento-bookclub.gif" alt="Book Club App GIF" style="max-width: 100%; height: 350px;"/>', 
         link: "https://bookclubplus.netlify.app/",
         key_features: 
         `
@@ -58,6 +60,7 @@ const details = {
     {
         title: "Activity Tracker App",
         description: "A simple React Native app that allows users to create activities linked to specific dates, providing an easy way to track tasks and mark them as done or not done.",
+        gif: '<img src="./imgs/bento-calendar.gif" alt="Tasks App GIF" style="max-width: 100%; height: 350px;"/>', 
         key_features: 
         `
         <b>Key Features:</b>
@@ -83,15 +86,17 @@ const details = {
     4: 
     {
         title: "Supermarket List App",
-        description: "A mobile application that helps users create and organize supermarket shopping lists, allowing them to easily track and add products for a more efficient shopping experience.",
+        description: `A mobile application that helps users create and organize supermarket shopping lists, allowing them to easily track and add products for a more efficient shopping experience.`,      
+        gif: '<img src="./imgs/supermarket.gif" alt="Supermarket List App GIF" style="max-width: 100%; height: 350px;"/>',  
         key_features: 
         `
         <b>Key Features:</b>
         <ul>
             <li>Create multiple shopping lists, each tailored to different shopping needs.</li>
             <li>Add various products like groceries, produce, and household items to specific lists.</li>
+            <li>Add products to the database so they can be added to a list.</li>
             <li>Edit or remove items from lists to keep them up-to-date and organized.</li>
-            <li>Responsive design across Android and iOS platforms, ensuring a seamless user experience.</li>
+            <li>Responsive mobile design, ensuring a seamless user experience.</li>
         </ul>
         `,
         technologies_used:
@@ -110,6 +115,7 @@ const details = {
     {
         title: "Portfolio Website",
         description: "A personal portfolio website showcasing projects and skills, featuring a responsive design and smooth user experience.",
+        gif: '<img src="./imgs/bento-portfolio.gif" alt="Tasks App GIF" style="max-width: 100%; height: 350px;"/>',
         key_features: 
         `
         <b>Key Features:</b>
@@ -161,6 +167,7 @@ function openModal(id) {
     const modal = document.getElementById('myModal');
     const modalTitle = document.getElementById('modalTitle');
     const modalDescription = document.getElementById('modalDescription');
+    const gif = document.getElementById('gif');
     const link = document.getElementById('link');
     const keyFeatures = document.getElementById('keyFeatures');
     const technologiesUsed = document.getElementById('technologiesUsed');
@@ -170,6 +177,7 @@ function openModal(id) {
     if (details[id]) {
         modalTitle.textContent = details[id].title;
         modalDescription.textContent = details[id].description;
+        gif.innerHTML = details[id].gif;
         if(details[id].link) {
             link.style.display = "inline"; 
             link.href = details[id].link; 
