@@ -46,8 +46,8 @@ const details = {
         `
         <b>Technologies Used:</b>
         <ul>
-            <li><b>Frontend:</b> React, HTML5.</li>
-            <li><b>Backend:</b> Node.js, Express, JavaScript (ES6+), JSX.</li>
+            <li><b>Frontend:</b> React, HTML5, JSX.</li>
+            <li><b>Backend:</b> Node.js, Express, JavaScript (ES6+).</li>
             <li><b>Database:</b> MongoDB for storing user and book club data.</li>
             <li><b>User Authentication:</b> JSON Web Tokens (JWT) for secure login and session management.</li>
             <li><b>Styling and UI:</b> Tailwind CSS, and animations for seamless transitions in modals.</li>
@@ -75,8 +75,8 @@ const details = {
         `
         <b>Technologies Used:</b>
         <ul>
-            <li><b>Frontend:</b> React Native.</li>
-            <li><b>Backend:</b> JavaScript (ES6+), JSX.</li>
+            <li><b>Frontend:</b> React Native, JSX.</li>
+            <li><b>Backend:</b> JavaScript (ES6+).</li>
             <li><b>Styling and UI:</b> CSS mobile-first design.</li>
             <li><b>Deployment:</b> Project made for personal use, using GitHub for version control.</li>
         </ul>
@@ -103,8 +103,8 @@ const details = {
         `
         <b>Technologies Used:</b>
         <ul>
-            <li><b>Frontend:</b> React Native.</li>
-            <li><b>Backend:</b> JavaScript (ES6+), JSX.</li>
+            <li><b>Frontend:</b> React Native, JSX.</li>
+            <li><b>Backend:</b> JavaScript (ES6+).</li>
             <li><b>Styling and UI:</b> CSS mobile-first design.</li>
             <li><b>Deployment:</b> Project made for personal use, using GitHub for version control.</li>
         </ul>
