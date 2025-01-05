@@ -177,7 +177,7 @@ function openModal(id) {
     if (details[id]) {
         modalTitle.textContent = details[id].title;
         modalDescription.textContent = details[id].description;
-        gif.innerHTML = details[id].gif;
+        //gif.innerHTML = details[id].gif;
         if(details[id].link) {
             link.style.display = "inline"; 
             link.href = details[id].link; 
